@@ -1,0 +1,22 @@
+//
+//  PGQDemoHeader.pch
+//  PGQDemo
+//
+//  Created by Lois_pan on 2017/12/25.
+//  Copyright © 2017年 Lois_pan. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Masonry.h"
+#import "GQStatics.h"
+#import "GQMacro.h"
+#import "GQUIConstant.h"
+#endif
+
+#ifndef PGQDemoHeader_h
+#define PGQDemoHeader_h
+
+#endif /* PGQDemoHeader_h */
+
