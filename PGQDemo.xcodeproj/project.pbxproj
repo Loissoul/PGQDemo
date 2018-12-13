@@ -31,6 +31,8 @@
 		3B5738042015E70A0086E0C8 /* TestHeightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5738032015E70A0086E0C8 /* TestHeightTableViewCell.m */; };
 		3B8702272133F139008AADB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8702262133F139008AADB0 /* ViewController.m */; };
 		3B8702292133F171008AADB0 /* TestSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8702282133F171008AADB0 /* TestSwiftViewController.swift */; };
+		3B96D0ED21C1001800D6E4D7 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B96D0EC21C1001800D6E4D7 /* Sort.swift */; };
+		3B96D0EF21C1002400D6E4D7 /* SortClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B96D0EE21C1002400D6E4D7 /* SortClass.swift */; };
 		3B99B4A0212A944700BF3709 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B99B49E212A944700BF3709 /* GCDViewController.m */; };
 		3B99B4A5212A948000BF3709 /* MyOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B99B4A2212A948000BF3709 /* MyOperation.m */; };
 		3B99B4A6212A948000BF3709 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B99B4A3212A948000BF3709 /* MyView.m */; };
@@ -111,6 +113,8 @@
 		3B8702252133F139008AADB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3B8702262133F139008AADB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3B8702282133F171008AADB0 /* TestSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftViewController.swift; sourceTree = "<group>"; };
+		3B96D0EC21C1001800D6E4D7 /* Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
+		3B96D0EE21C1002400D6E4D7 /* SortClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortClass.swift; sourceTree = "<group>"; };
 		3B99B49E212A944700BF3709 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
 		3B99B49F212A944700BF3709 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
 		3B99B4A1212A948000BF3709 /* MyOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOperation.h; sourceTree = "<group>"; };
@@ -399,6 +403,15 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		3B96D0EB21C1001800D6E4D7 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				3B96D0EC21C1001800D6E4D7 /* Sort.swift */,
+				3B96D0EE21C1002400D6E4D7 /* SortClass.swift */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
 		3B99B498212A92D900BF3709 /* GCD */ = {
 			isa = PBXGroup;
 			children = (
@@ -519,6 +532,7 @@
 		3B99B4FD212FE88300BF3709 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				3B96D0EB21C1001800D6E4D7 /* Sort */,
 				3B99B4FF212FE8A800BF3709 /* AlgorithmSwiftViewController.swift */,
 				3B99B4FE212FE8A800BF3709 /* PGQDemo-Bridging-Header.h */,
 				3B8702282133F171008AADB0 /* TestSwiftViewController.swift */,
@@ -767,6 +781,7 @@
 				3BA997191FF4B80600C10F5F /* UIImageView+Radius.m in Sources */,
 				3B99B4BB212AAC5300BF3709 /* NullSafe.m in Sources */,
 				3B2E34781FF0E00900E01B71 /* RootViewController.m in Sources */,
+				3B96D0ED21C1001800D6E4D7 /* Sort.swift in Sources */,
 				3B99B4A0212A944700BF3709 /* GCDViewController.m in Sources */,
 				3B99B4F6212EC05A00BF3709 /* NullSafe.m in Sources */,
 				3BA66EBE20EB66D1008B8DD8 /* GQTransition.m in Sources */,
@@ -807,6 +822,7 @@
 				3B2E347F1FF0E05400E01B71 /* AppDelegate.m in Sources */,
 				3B5738042015E70A0086E0C8 /* TestHeightTableViewCell.m in Sources */,
 				3BA997221FF4BA0D00C10F5F /* UIView+ForWDLoopScrollView.m in Sources */,
+				3B96D0EF21C1002400D6E4D7 /* SortClass.swift in Sources */,
 				3BA997081FF0EE9F00C10F5F /* GQTabBar.m in Sources */,
 				3B99B4A6212A948000BF3709 /* MyView.m in Sources */,
 			);
